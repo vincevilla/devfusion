@@ -1,0 +1,82 @@
+body, html{
+	margin: 0;
+	padding: 0; 
+}
+
+video{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-height: 100%;
+	min-width: 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.text{
+	z-index: 2;
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	margin-top: 200px;
+	left: 0;
+	right: 0;
+	color: #ffffff;
+	font-family: Amethyst;
+	text-align: center;
+	font-size: 85px;
+	font-weight: bolder;
+}
+
+p{
+	z-index: 2;
+	position: absolute;
+	color: #d9dae0;
+	font-family: Good Times;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 290px;
+	font-size: 30px;
+	left: 0;
+	right: 0;
+	color: #ff6e07;
+}
+
+.text1{
+	z-index: 2;
+	position: absolute;
+	color: #ffffff;
+	font-size: 30px;
+	left: 550px;
+	right: 550px;
+	top: 400px;
+	text-align: center;
+	font-family: Arial;
+	margin-right: 10px; 
+	padding: 10px;
+    border: 3px solid #ffffff;
+	background-color: #f0f0f0;
+
+}
+@media print{
+	tr td{
+		padding-top:-10px!important;
+		border: 1px solid #000;
+	}
+	.no-print, .no-print*{
+		display: none !important;
+	}
+}
+.design {
+	text-align: center;
+	background: wall%20patterns%20textures%201440x900%20wallpaper_www.wall321.com_63.jpg;
+}
+
+.center {
+    margin: auto;
+    width: 10%;
+    padding: 5px;
+}
+
